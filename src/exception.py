@@ -1,7 +1,7 @@
 # IT WILL SAME FOR EVERY PROJECTS JUST WHAT WE CAN CHANGE , WE CAN ONLY CHANGE THE FORMAT OF PRINTING IT 
 
 import sys
-from src.logger import logging
+from logger import logging # from sys.logger import logging
 
 def error_message_detail(error,error_details:sys):
     _,_,exc_tb = error_detail,exc_info()
