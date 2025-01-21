@@ -1,14 +1,12 @@
 import os # to create a path, to join path
 import sys
-from loggy import logging
-from excep import CustomException
+from logger import logging
+from exception import CustomException
 import pandas as pd # to read the dataset
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass # we didn't required to contruct a constructor line __init__ , we can directly create the variables using dataclass
 
-#from src.components.data_transformation import DataTransformation
-from data_transformation import DataTransformation
-
+from data_transformations import DataTransformation
 
 ## Intitialize the Data Ingetion Configuration
 

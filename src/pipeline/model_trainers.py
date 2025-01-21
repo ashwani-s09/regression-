@@ -1,12 +1,12 @@
 # Basic imports 
 import numpy as np 
 import pandas as pd
-from sklearn.linear_model import LinearRegresssion, Ridge, Lasso,ElasticNet
-from excep import CustomException
-from loggy import logging
+from sklearn.linear_model import LinearRegression, Ridge, Lasso,ElasticNet
+from exception import CustomException
+from logger import logging
 
-from util import save_object
-from util import evaluate_model
+from utils import save_object
+from utils import evaluate_model
 
 from dataclasses import dataclass 
 import sys
